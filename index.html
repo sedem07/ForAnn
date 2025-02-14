@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Ann</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      font-family: 'Arial', sans-serif;
+      color: white;
+      text-align: center;
+    }
+    .message {
+      max-width: 600px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #ff6f61;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #ff4e42;
+    }
+  </style>
+</head>
+<body>
+  <div class="message">
+    <h1>HEY SWEETHEART</h1>
+    <p>
+      Words can't express how much you mean to me. From the moment we met, my life has been filled with joy, laughter, and countless precious memories. You are my sunshine, my strength, and my greatest treasure. Thank you for always making me feel seen and loved. I look forward to every moment we spend together, and I can't wait to create even more beautiful memories with you. Always remember that I love you more than anything in this world. Muuaahhh
+    </p>
+    <button onclick="playMusic()">Press This Button &#10084; </button>
+  </div>
+  <audio id="loveSong" src="Lady Gaga, Bruno Mars - Die With A Smile.mp3.mp3"></audio>
+  <script>
+    function playMusic() {
+      document.getElementById('loveSong').play();
+    }
+  </script>
+</body>
+</html>
